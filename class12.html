@@ -56,6 +56,16 @@
             font-size: 6px;
             line-height: 1.6;
             margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+            text-align: left;
+        }
+        .info div:nth-child(3n) {
+            text-align: right;
+        }
+        .info div:nth-child(2n) {
+            text-align: center;
         }
         table {
             width: 100%;
@@ -81,11 +91,12 @@
             color: #fff;
             font-weight: bold;
             text-align: center;
-            padding: 10px;
+            padding: 5px;
+            font-size: 8px;
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #000;
             margin-top: -1px;
-            border-left: 1px solid #000;
-            border-right: 1px solid #000;
-            border-bottom: 1px solid #000;
         }
     </style>
 </head>
@@ -139,4 +150,4 @@
 </footer>
 
 </body>
-    </html
+</html>
