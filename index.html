@@ -1,10 +1,76 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>My GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE 10th Results - Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d47a1; /* Dark Blue */
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 80px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .container h2 {
+      text-align: center;
+      color: #0d47a1;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #0d47a1;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #08306b;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This site is hosted using GitHub Pages!</p>
+  <div class="container">
+    <h2>CBSE - Class X Results</h2>
+    <form>
+      <label for="roll">Roll Number</label>
+      <input type="text" id="roll" name="roll" required><label for="dob">Date of Birth (DD/MM/YYYY)</label>
+  <input type="text" id="dob" name="dob" placeholder="DD/MM/YYYY" required>
+
+  <label for="school">School No</label>
+  <input type="text" id="school" name="school" required>
+
+  <label for="center">Centre No</label>
+  <input type="text" id="center" name="center" required>
+
+  <label for="admit">Admit Card ID</label>
+  <input type="text" id="admit" name="admit" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+  </div>
 </body>
-</html>
+</html>l>
